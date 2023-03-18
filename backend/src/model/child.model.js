@@ -13,3 +13,6 @@ const childSchema=mongoose.Schema({
         ref:"test"
     }],
 })
+
+const child= mongoose.model("child",childSchema);
+module.exports= child;

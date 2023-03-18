@@ -23,3 +23,5 @@ const testSchema= mongoose.Schema({
         type:Date
      }  
 })
+const Test= mongoose.model("test", testSchema);
+module.exports=Test;
